@@ -1,0 +1,12 @@
+# By default, ignore all files
+*
+
+# But not these files...
+!src/
+!src/**
+!flake.*
+!README.md
+!.gitignore
+!tsconfig*.json
+!package.json
+!bun.lock
