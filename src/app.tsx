@@ -11,8 +11,6 @@ type Message = {
 export const App = () => {
   const [stateAction, submitAction, isPending] = React.useActionState(action, "", '/')
 
-  console.log({ stateAction, submitAction, isPending })
-
   const [state, setState] = React.useState<Message[]>([])
   const patientRef = React.useRef<HTMLInputElement>(null);
   const doctorRef = React.useRef<HTMLInputElement>(null);
