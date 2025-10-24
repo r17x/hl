@@ -12,3 +12,4 @@
 !bun.lock
 !vite.config.ts
 !wrangler.jsonc
+!*.py
