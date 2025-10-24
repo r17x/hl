@@ -19,6 +19,8 @@
               buildInputs = [
                 pkgs.bun
                 pkgs.nodejs
+                pkgs.python311Packages.fastapi
+                pkgs.python311Packages.uvicorn
               ];
             };
           };
